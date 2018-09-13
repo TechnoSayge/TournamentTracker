@@ -33,8 +33,9 @@
             this.lblTournamentName = new System.Windows.Forms.Label();
             this.tbEntryFeeValue = new System.Windows.Forms.TextBox();
             this.lblEntryFee = new System.Windows.Forms.Label();
-            this.ddRound = new System.Windows.Forms.ComboBox();
+            this.ddSelectTeam = new System.Windows.Forms.ComboBox();
             this.lblSelectTeam = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // lblHeader
@@ -85,13 +86,13 @@
             this.lblEntryFee.TabIndex = 11;
             this.lblEntryFee.Text = "Entry Fee";
             // 
-            // ddRound
+            // ddSelectTeam
             // 
-            this.ddRound.FormattingEnabled = true;
-            this.ddRound.Location = new System.Drawing.Point(61, 231);
-            this.ddRound.Name = "ddRound";
-            this.ddRound.Size = new System.Drawing.Size(243, 38);
-            this.ddRound.TabIndex = 14;
+            this.ddSelectTeam.FormattingEnabled = true;
+            this.ddSelectTeam.Location = new System.Drawing.Point(42, 231);
+            this.ddSelectTeam.Name = "ddSelectTeam";
+            this.ddSelectTeam.Size = new System.Drawing.Size(325, 38);
+            this.ddSelectTeam.TabIndex = 14;
             // 
             // lblSelectTeam
             // 
@@ -104,13 +105,24 @@
             this.lblSelectTeam.TabIndex = 13;
             this.lblSelectTeam.Text = "Select Team";
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(262, 198);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(105, 30);
+            this.linkLabel1.TabIndex = 15;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "linkLabel1";
+            // 
             // CreateTournamentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(545, 314);
-            this.Controls.Add(this.ddRound);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.ddSelectTeam);
             this.Controls.Add(this.lblSelectTeam);
             this.Controls.Add(this.tbEntryFeeValue);
             this.Controls.Add(this.lblEntryFee);
@@ -134,7 +146,8 @@
         private System.Windows.Forms.Label lblTournamentName;
         private System.Windows.Forms.TextBox tbEntryFeeValue;
         private System.Windows.Forms.Label lblEntryFee;
-        private System.Windows.Forms.ComboBox ddRound;
+        private System.Windows.Forms.ComboBox ddSelectTeam;
         private System.Windows.Forms.Label lblSelectTeam;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
